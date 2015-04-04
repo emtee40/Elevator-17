@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Elevator 17</string>
+    <string name="up_button">call</string>
+    <string name="pause_button">pause</string>
+    <string name="close_button">start</string>
+    <string name="open_button">stop</string>
+    <string name="ffd_button">next</string>
+    <string name="rew_button">prev</string>
+    <string name="slide_photo">photos from RAEM 2006</string>
+    <string name="site_link">link to website</string>
+    <string name="title_activity_main">introduction</string>
+    <string name="footer">Random Acts of Elevator Music and the City Frequencies co.</string>
+    <string name="gndIntro">Appearing spontaneously in elevators throughout the city with their portable studio hidden in briefcases, Random Acts of Elevator Music enlighten the consciousness of office workers with live muzaktronica.\n\nThe audio is a 41 minute live recording from inside the 17th elevator that was visited by RAEM during the 2006 Melbourne Fringe Festival. The 179 photos taken with an old mobile phone document the build process for our gear and the subsequent tour.\n\nversion 1.2.0</string>
+	<string name="gndExit1">In the 2006 Fringe Festival Random Acts of Elevator Music played for ten days during business hours. We visited 35 elevators over this period of time with a favourable response from the public.</string>
+	<string name="gndExit2">RAEM arrived in each elevator unannounced and commenced to perform after a quick unpack and power up. This performance style generated interest from the office workers and the building security.</string>
+	<string name="gndExit3">Out of the 35 elevators we visited in 2006 we played a full 40 min set in 16 of them. A half set was played in 4 elevators and, more excitingly, we were evicted by security from 15 elevators.</string>
+	<string name="gndExit4">This experience in 2006 encouraged us to plan for a bigger and better tour that eventually took place in 2009. Better amplifier, better cases, better build and better suits.</string>
+	<string name="floorG">G</string>
+    <string name="floor1">1</string>
+    <string name="floor2">2</string>
+    <string name="floor3">3</string>
+    <string name="floor4">4</string>
+    <string name="floor5">5</string>
+    <string name="floor6">6</string>
+    <string name="floor7">7</string>
+    <string name="floor8">8</string>
+    <string name="floor9">9</string>
+    <string name="floor10">10</string>
+</resources>

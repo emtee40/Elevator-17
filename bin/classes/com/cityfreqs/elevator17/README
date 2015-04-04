@@ -1,0 +1,36 @@
+Notes for the Elevator 17 Android app (620 lines of code)
+- app in maintenance mode from this release version
+
+
+version 1.2.0
+* version 1.2.0 update is for UI elements and behaviour
+* changed button behaviours --as -70 contrast in Gimp
+* added mediaPlayer broadcast service for UI updates
+* added manifest noHistory=true for back button presses and resume activity
+* changed UI update function and save state
+* added touch to imageview for next photo
+* added transition to slideshow
+* added eof behaviour
+* converted app to single activity
+* added website links
+
+
+version 1.1.0
+- version 1.1.0 update is service as a background mediaPlayer
+- moved MediaPlayer to Service for background audio
+- added MediaPlayer partial wake lock
+- added notifications bar function
+- added pause button
+- removed ffd, rew buttons and function
+
+
+
+TODO
+* make better promo graphics
+* conform app for submission to Amazon Apps 
+* conform app for submission to Blackberry App World - size limit?
+* port app for submission to iTunes as iOS app
+
+POSSIBLE
+* make broadcast send to UI only on floor change
+* get UI to poll broadcast when event occurs - ie activity resume, button press etc 

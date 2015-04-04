@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#212121">
+
+    <TextView
+        android:id="@+id/appName"
+        android:background="#333333"
+        android:text="@string/app_name"
+        android:textSize="24dp"
+        android:textColor="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:padding="12dp" />
+    
+    <TableLayout 
+        android:id="@+id/floorTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appName"
+        android:background="#212121"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:stretchColumns="*">
+	    
+	    <TableRow
+	        android:id="@+id/floorRow"
+	        android:background="#212121"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+	    
+		     <TextView
+		        android:id="@+id/floorG"
+		        android:text="@string/floorG"
+		        android:textColor="#ffdf0b"
+		        android:textSize="20dp"/>
+		    <TextView
+		        android:id="@+id/floor1"
+		        android:text="@string/floor1"
+		        android:textColor="#666666"
+		        android:textSize="20dp"/>
+		    <TextView
+		        android:id="@+id/floor2"
+		        android:text="@string/floor2"
+		        android:textColor="#666666"
+		        android:textSize="20dp" />
+		    <TextView
+		        android:id="@+id/floor3"
+		        android:text="@string/floor3"
+		        android:textColor="#666666"
+		        android:textSize="20dp"/>		    
+		    <TextView
+		        android:id="@+id/floor4"
+		        android:text="@string/floor4"
+		        android:textColor="#666666"
+		        android:textSize="20dp"/>		    
+		    <TextView
+		        android:id="@+id/floor5"
+		        android:text="@string/floor5"
+		        android:textColor="#666666"
+		        android:textSize="20dp"/>		    
+		    <TextView
+		        android:id="@+id/floor6"
+		        android:text="@string/floor6"
+		        android:textColor="#666666"
+		        android:textSize="20dp"/>		    
+		    <TextView
+		        android:id="@+id/floor7"
+		        android:text="@string/floor7"
+		        android:textColor="#666666"
+		        android:textSize="20dp"/>		    
+		    <TextView
+		        android:id="@+id/floor8"
+		        android:text="@string/floor8"
+		        android:textColor="#666666"
+		        android:textSize="20dp"/>		    
+		    <TextView
+		        android:id="@+id/floor9"
+		        android:text="@string/floor9"
+		        android:textColor="#666666"
+		        android:textSize="20dp"/>
+		    <TextView
+		        android:id="@+id/floor10"
+		        android:text="@string/floor10"
+		        android:textColor="#666666"
+		        android:textSize="20dp"/>
+	    </TableRow>
+    </TableLayout>
+    
+    <View
+   	    android:id="@+id/separator" 
+   	    android:layout_below="@+id/floorTable"
+	    android:layout_height="1dp"
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="6dp"
+	    android:background="#666666" />
+    
+    <ImageView
+        android:id="@+id/photoView"
+        android:background="#000"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="20dp"
+		android:scaleType="fitCenter"
+		android:layout_below="@+id/separator"
+		android:layout_above="@+id/close_button1"
+		android:layout_centerHorizontal="true"
+        android:contentDescription="@string/slide_photo"
+        />
+    
+    <TextView
+        android:id="@+id/gndIntro"
+        android:background="#000"
+        android:text="@string/gndIntro"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:textColor="#666"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/photoView"
+        android:layout_below="@+id/separator"
+        android:padding="15dp" />
+    
+    <ImageView
+        android:id="@+id/cfpLogo"
+        android:background="#000"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+		android:scaleType="centerInside"
+		android:layout_below="@+id/gndIntro"
+		android:layout_above="@+id/separator2"
+		android:layout_centerHorizontal="true"
+        android:contentDescription="@string/site_link"
+        android:src="@drawable/cfp_logo"
+        />
+    
+    <View
+   	    android:id="@+id/separator2" 
+   	    android:layout_below="@+id/photoView"
+	    android:layout_height="1dp"
+	    android:layout_width="wrap_content"
+	    android:layout_marginBottom="6dp"
+	    android:background="#666666" />
+
+
+    
+        
+    
+     <ImageButton
+        android:id="@+id/close_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/pause_button1"
+        android:layout_above="@+id/footer"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="6dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/close_button"
+        android:cropToPadding="false"
+        android:src="@drawable/close_btn" />
+     
+     <ImageButton
+        android:id="@+id/pause_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/photoView"
+        android:layout_above="@+id/footer"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="6dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/pause_button"
+        android:cropToPadding="false"
+        android:src="@drawable/pause_btn" />
+     
+    <ImageButton
+        android:id="@+id/open_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/pause_button1"
+        android:layout_above="@+id/footer"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="6dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/open_button"
+        android:cropToPadding="false"
+        android:src="@drawable/open_btn" />
+    
+
+    
+    
+   	<TextView
+        android:id="@+id/footer"
+        android:background="#333333"
+        android:text="@string/footer"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="8dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp" />
+   	
+</RelativeLayout>
